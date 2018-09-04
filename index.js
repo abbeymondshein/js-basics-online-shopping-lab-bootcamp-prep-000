@@ -60,7 +60,14 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  //use for loop to check array for item, and if found remove from array
+  for(var i = 0; i < cart.length; i++){
+    if(item === cart[i].itemName){
+      return cart.splice(i,1)
+    }
+    }
+    //if not found,
+    return "That item is not in your cart."
 }
 
 function placeOrder(cardNumber) {
