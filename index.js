@@ -49,13 +49,7 @@ function viewCart() {
 }
   
   
-  for (let i = 0; i < cart.length; i++) {
-    if (i == cart.length - 1) {
-     text += `and ${cart[i].itemName} at $${cart[i].itemPrice}`
-     } else {
-        text += `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}`
-        }
-    }
+  
   
   
  
