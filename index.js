@@ -20,7 +20,6 @@ return `${item} has been added to your cart.`
 
 
 function viewCart() {
-  // write your code here
   var cartContents = [];
   var inYourCart = "In your cart, you have "
   
@@ -51,7 +50,6 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
   let totalVal=0;
   for (let i=0;i<cart.length;i++){
     totalVal+=cart[i].itemPrice;
@@ -72,4 +70,5 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   // write your code here
+  
 }
